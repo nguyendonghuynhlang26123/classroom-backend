@@ -1,0 +1,1 @@
+insert into tclassroom(class_id, version, class_title,class_code,class_img, class_room,subject,section) values(1, 1,'Class1', '123', 'https://www.gstatic.com/classroom/themes/img_bookclub.jpg', '123', 'Math', 'EZ');

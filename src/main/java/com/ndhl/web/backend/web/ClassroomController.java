@@ -16,6 +16,7 @@ import java.util.List;
 @RestController
 @RequestMapping(AbstractEndpoint.BASE_PATH + "/classes")
 @Slf4j
+@CrossOrigin( origins = "*")
 public class ClassroomController {
     @Autowired
     ClassroomServiceImpl service;
